@@ -1,10 +1,27 @@
-# Ignorar o ambiente virtual
+# Ambiente virtual
 venv/
+.env
 
-# Arquivos temporários do Python
+# Cache e arquivos compilados do Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Arquivos de IDEs
+# Logs
+*.log
+
+# Banco de dados local temporário (se houver)
+*.sqlite3
+
+# Configurações de IDE
 .vscode/
 .idea/
+
+# Docker
+docker-compose.override.yml
+
+# Arquivos temporários do sistema
+*.swp
+.DS_Store
+Thumbs.db
