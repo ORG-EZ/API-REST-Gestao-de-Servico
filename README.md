@@ -55,6 +55,14 @@ source venv/bin/activate      # Linux / Mac
 # venv\Scripts\activate       # Windows
 pip install -r backend/requirements.txt
 ```
+Caso haja problemas:
+
+```bash
+sudo apt update
+sudo apt install libpq-dev
+```
+
+E tente instalar novamente
 
 ---
 
