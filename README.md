@@ -132,7 +132,13 @@ API-REST-Gestao-de-Servico/
 │   ├── Dockerfile
 │   ├── requirements.txt
 ├── docker-compose.yml
-├── frontend/
+├── front/
+    ├─ index.html
+    ├─ package.json
+    ├─ tsconfig.json
+    └─ src/
+        ├─ main.tsx
+        └─ App.tsx
 ├── README.md
 └── .gitignore
 ```
